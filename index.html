@@ -262,7 +262,7 @@
            var project = jq(this).html().toLowerCase()
            //Adding project to the config button which will then add it to the test button
            jq(".test_but").each(function(){
-             jq(this).attr('href', '/webpy/' + project)
+             jq(this).attr('href', 'vserver.amcc.com/webpy/' + project)
            });
          });
          jq(".config_but").click(function(eventData){
