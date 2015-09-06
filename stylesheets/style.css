@@ -15,3 +15,7 @@ body {
 .navbar-brand{
 	color: #FFB300 !important;
 }
+
+.intro {
+	background-image: url("pics/ucla_banner.jpg")
+}
