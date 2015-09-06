@@ -1,1 +1,17 @@
 
+body {
+	min-height: 2000px;
+	padding-top: 70px;
+}
+      
+#navbar > ul > li > a {
+	color: #FFB300 !important;
+}
+
+#navbar > ul > li > ul > li > a{
+	color: #FFB300 !important;
+}
+
+.navbar-brand{
+	color: #FFB300 !important;
+}
