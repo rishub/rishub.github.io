@@ -20,5 +20,6 @@ body {
 	background-image: url("../pics/ucla_banner.jpg");
 	display: block;
 	background-size:contain;
-	//height:200px;width:1200px;
+	background-position:center top;
+	height:1200px;width:1200px;
 }
