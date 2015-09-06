@@ -17,8 +17,15 @@ body {
 }
 
 .intro {
-	background-image: url("../pics/ucla_banner.jpg");
-	display: block;
-	background-size: cover;
-	width: 100%; height: 100%;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../pics/ucla_banner.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
