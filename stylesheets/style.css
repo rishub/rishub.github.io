@@ -17,5 +17,5 @@ body {
 }
 
 .intro {
-	background-image: url("pics/ucla_banner.jpg")
+	background-image: url("../pics/ucla_banner.jpg");
 }
