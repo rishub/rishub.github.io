@@ -56,25 +56,28 @@ p {
 }
 
 .bg-primary {
-    background-color: #82CFFD;
+    background-color: #82CFFD; /*light blue*/
 }
 
 .bg-secondary {
-    background-color: #FFC125;
+    background-color: #FFC125;  /*gold*/
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222;
+    color: #fff;  
+    background-color: #222; /*black*/
 }
 
 .bg-light{
-    background-color: #FFEC8B
+    background-color: #FFEC8B;  /*light yellow*/
 }
 
 .bg-footer {
-    color: #fff;
-    background-color: #3284BF;
+    background-color: #3284BF; /*blue*/
+}
+
+.bg-contact {
+    background-color: #fff; /*blue*/
 }
 
 
@@ -95,9 +98,12 @@ section.bg-footer{
 }
 
 section.bg-light{
-    padding: 50px 0;
+    padding: 50px 0; 
 }
 
+.social {
+    padding-right: 15px;
+}
 
 aside {
     padding: 50px 0;
@@ -423,6 +429,12 @@ fieldset[disabled] .btn-default.active {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.btn-secondary {
+    border-color: #fff;
+    color: #fff;
+    background-color: #222;
 }
 
 .btn-primary:hover,
